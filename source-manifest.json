@@ -1,0 +1,1091 @@
+{
+  "release_version": "0.1.0",
+  "scope": "public source adaptation, private assets excluded",
+  "files": [
+    {
+      "path": "implementation/runtime/astrbot/app/data/plugins/astrbot_plugin_nailv/main.py",
+      "source_relative_path": "runtime/astrbot/app/data/plugins/astrbot_plugin_nailv/main.py",
+      "source_sha256": "54d78c091ab3ab372bd87259b40b63e91ea22f065c0f3e737f25e85b7d1118cb",
+      "release_sha256": "dbfb8fe1874dc3d4d85f08ea2a6547be0f459dab479e144b2c576ef907557a1c",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/astrbot/scripts/control_panel.py",
+      "source_relative_path": "runtime/astrbot/scripts/control_panel.py",
+      "source_sha256": "30d7fdaa1364021c4b78cbd8d2ea7b34dac39fba3c69dc17dddc18dc7517920f",
+      "release_sha256": "259ddcbbbb85ca8c73c01f3c7a965181a07315900983b0ccf287742cd417ef95",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/astrbot/scripts/manage.py",
+      "source_relative_path": "runtime/astrbot/scripts/manage.py",
+      "source_sha256": "bc33577864d072075650eb4508d25e5e6bf08895bcb681e5a9e17cc4eb20ab65",
+      "release_sha256": "7e7f10f30445b2aa035d8e6971cf6a8857d723eeaad309685e90c4761a67e7b6",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/astrbot/scripts/nailv_provider.py",
+      "source_relative_path": "runtime/astrbot/scripts/nailv_provider.py",
+      "source_sha256": "4f5ea3ed5f42eab1db1f622539cb8f85e2523c49ca77236c8a957c771835bcd1",
+      "release_sha256": "011a5c2baf2954b3f1f491a326eb9f14c90563b5a06a9228f10fef69493644f9",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/astrbot/scripts/run_astrbot.py",
+      "source_relative_path": "runtime/astrbot/scripts/run_astrbot.py",
+      "source_sha256": "f0daa8d5c26f39deb820f9ef5abcdf99215a7ee6e476afa4945b1277538f8e5d",
+      "release_sha256": "7fcfcd1d7bdf8197a4d2fc5de9c16253d9c0529a31b141b0bb9949dc1e92d510",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice2/scripts/bootstrap.py",
+      "source_relative_path": "runtime/cosyvoice2/scripts/bootstrap.py",
+      "source_sha256": "5a75702fffe06fefe71a1183124ecf8bf89a6a27fb9b0252c1eda439ea538562",
+      "release_sha256": "7b8381d56cf5c2380ef2d13e72488043ce4b2e1aba9699c3b2057bb25e7e8060",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice2/scripts/check_text.py",
+      "source_relative_path": "runtime/cosyvoice2/scripts/check_text.py",
+      "source_sha256": "d9c7cdc275d2a48d841cf3d5c3481f32011967b0fa012867b1e1085006cb68c1",
+      "release_sha256": "e8106a16f8ab5abce6e25a5e088bc3b7f835ce60b20066577796f985834cf741",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice2/scripts/cosy_chat_backend.py",
+      "source_relative_path": "runtime/cosyvoice2/scripts/cosy_chat_backend.py",
+      "source_sha256": "ebe7d5a138b470ca202a1563cf13105a8d48eb419b14b2a15276cdb21ef5e1f1",
+      "release_sha256": "a50b8755751a55e3d5fbe66a6de8db5d78b5d73c6647a6f556635b6595f1be37",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice2/scripts/download_model.py",
+      "source_relative_path": "runtime/cosyvoice2/scripts/download_model.py",
+      "source_sha256": "125309b1d1dc2a8000854fec7417a366736634df45268833bdf545a00495fb53",
+      "release_sha256": "da235312f79879faa498dd3bb644a543b88f839a7f2f7eb73c22da3a50a9b01c",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice2/scripts/infer.py",
+      "source_relative_path": "runtime/cosyvoice2/scripts/infer.py",
+      "source_sha256": "df53099de08a9f91f8e852db056deb54b39ce54284220435debaeb366b6527f8",
+      "release_sha256": "dda4eb09e86928a13d7a5fdc7e8bdd88070cd7d1cd332613e7808189f28e1057",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice2/scripts/install_deps.py",
+      "source_relative_path": "runtime/cosyvoice2/scripts/install_deps.py",
+      "source_sha256": "ed33d2355f88d4cc9c4a10c6051efc425b3d907da4fd8d4135aa971eaca779b0",
+      "release_sha256": "1b20e5d2740839b1b62d57ab18c64e7ac8a7972941bf84d59eeb0bb77ed376ba",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice2/scripts/nailv_cosy_delivery.py",
+      "source_relative_path": "runtime/cosyvoice2/scripts/nailv_cosy_delivery.py",
+      "source_sha256": "e00fe007e57f425aef6cc9db696077ad41903f01d7c75d3c119c792d9c066746",
+      "release_sha256": "2bcbbee00af82d5343481af533c4d5806ddbff21cc59bc1ee9262dc47cfcb818",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice2/scripts/nailv_cosy_performance.py",
+      "source_relative_path": "runtime/cosyvoice2/scripts/nailv_cosy_performance.py",
+      "source_sha256": "2d4717796177b4a70d22315173c5cf415e5a81027cc54f8341d390af8b899aed",
+      "release_sha256": "6ede6b3f431531e22d2793bdb5bd124faab7f2bc5b9fe0f599c5e4e443c297df",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice2/scripts/prepare_inputs.py",
+      "source_relative_path": "runtime/cosyvoice2/scripts/prepare_inputs.py",
+      "source_sha256": "9b4d9702f5d73d4a83f4626840241218cc6263fd0a28565f598271aa3927b9f3",
+      "release_sha256": "238fd49089d57279906d9a185d536c0b6ac71036af9d60d7f475f4dce74e5361",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/audio_critic.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/audio_critic.py",
+      "source_sha256": "8d2189a8e58a7c24f4c6424f28bb01f5321dec18fb3f93806cd0658e67e8fa7f",
+      "release_sha256": "fc5f59346f35e9ddf7f8fe47d55bd1ac32c0d81f9a34eb86ac6699857b07cc24",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/common.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/common.py",
+      "source_sha256": "b414ce288074d97a87dd938a63faee2ef5b421572bae23df8a718ff596de7150",
+      "release_sha256": "cd3573827c628e98bae7697889490aa0ca9b62aafc875d81912c6435258c3187",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/fuse.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/fuse.py",
+      "source_sha256": "0d24b858d6cab328c7ae619804364e775c5849e146856942987eee48193b9ba6",
+      "release_sha256": "c0ceeb8f224fcbc7dc116e40e8e8ee9e98fa81bff1d52cbe0e0e496aa8ecbcdd",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/lean_sensevoice.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/lean_sensevoice.py",
+      "source_sha256": "29001fe58ff333ad0791ab699c4190aeec983625d23cba5a2083a1c3f21dca3a",
+      "release_sha256": "98e6a6d50c422bcd24f712692f6a82b98b58805d352004e91e897c22a2527ba9",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/legacy_lora_tools.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/legacy_lora_tools.py",
+      "source_sha256": "41b870119af5436b2dff2c84a107fc430ca87b73a81d60eb4110a82c2865daff",
+      "release_sha256": "3d834e507f65702cc4997dd7a58d0313a92ebf259ce798a2e7ea7873abfaff38",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/prepare_dataset.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/prepare_dataset.py",
+      "source_sha256": "951ea238f7a78f6e764094024250ec1059cd67acca1715e2d1e550be6f1a34d0",
+      "release_sha256": "5e4ad238d3623b48819e8f5658bca9ccb4001c323ecbe94515a46e065308ba6b",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/prepare_features.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/prepare_features.py",
+      "source_sha256": "be13c5d12985cdcb195abe5f34729300b8ab20f3eb50d8f4836d5e1f0fd07f4f",
+      "release_sha256": "b6bde73a0c1e9984166cca2f4bb0563af912794fa2bfc1876d9e3293977631ed",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/affirm_hmm.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/affirm_hmm.py",
+      "source_sha256": "116c68321fabadae25160b1d84c5234803e80ae9aa482134db5ac92740ea7b0c",
+      "release_sha256": "3a705cdf63f289e5d5eb33691602a1f808230a14e6600702209035c6aa53f48a",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/audio_critic.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/audio_critic.py",
+      "source_sha256": "1529743a7052566e85c90d07730ca7f567d5571d7771ef58932d9aa1cc98efa3",
+      "release_sha256": "f79ea171accd7ed396a2ceeb9e67108b5cba6e73dd9093e5b25bf842a6734bda",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/confirmation_hmm.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/confirmation_hmm.py",
+      "source_sha256": "696e7b5831af2d0b33ee89fa42adf6beedd593fcea00444ecdee8749a2663d6b",
+      "release_sha256": "8a676afd3577b923f78ba04e6c5c785ab26b6c4cee74e69a349f922b07cbbc90",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/fast_bridge_runtime.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/fast_bridge_runtime.py",
+      "source_sha256": "094895a28bfc3177be2ec402cc06a1ff55db8be050834d4cf0af5e1c45af2f9d",
+      "release_sha256": "120dab73f23f0287960d26bacfe2f3209a72c592db5965a658e9937d6fc54b0a",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/fast_voice_worker.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/fast_voice_worker.py",
+      "source_sha256": "97a3e8bbcd08627a658fa910231f18599fc31f88564a287da709d8f150cbd383",
+      "release_sha256": "36c24bf1965028d71102720e64c1f4bb991aef6baf1a4f2b630050a7ebc04291",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/isolated_critic_worker.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/isolated_critic_worker.py",
+      "source_sha256": "13c3e6c58a65281526f1c3464b20fbc4675b0d558df1869fadbf7a4282430f27",
+      "release_sha256": "98ba513fc2b30aaf8343123029893c823cf30bd28f9c072a4ce6be5b88030075",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/lean_sensevoice.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/lean_sensevoice.py",
+      "source_sha256": "29001fe58ff333ad0791ab699c4190aeec983625d23cba5a2083a1c3f21dca3a",
+      "release_sha256": "98e6a6d50c422bcd24f712692f6a82b98b58805d352004e91e897c22a2527ba9",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/live_bridge_critic.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/live_bridge_critic.py",
+      "source_sha256": "a7c20d5ba47c7de02e0104a7ef5bd64dfd62e6b591ab0078f9ec034592871fcd",
+      "release_sha256": "bd67c96171a55f15714873694bf24069696d172fa00542fe05dfa619b1117fb0",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/live_bridge_server.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/live_bridge_server.py",
+      "source_sha256": "ee24586b4114dad712d7ee7ef2bf6e9657b615cfa5d00db0baa1a55048c7f913",
+      "release_sha256": "7c4898bec2b69d73b92235b5baecc9fefa4f8fdbc48e3e02ebf511fe86c9fa35",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/live_bridge_worker.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/live_bridge_worker.py",
+      "source_sha256": "61920daefc1d10518c0ce79d90321c585f5f322bcaefc22e85c15bddb6668b26",
+      "release_sha256": "07460b281dac1ad47467b4b4d11bff79a179b3d978d6e804769fdc7eadb56aea",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/local_repaint.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/local_repaint.py",
+      "source_sha256": "1c29d97361f3ae180838c217a8b35c643184191f0e0a2aaba2809b953da403b8",
+      "release_sha256": "f20150dd4ee778f7c677cc22552c07434b254238a1d8742f54c0a3339856e6ea",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/nailv_voice_router.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/nailv_voice_router.py",
+      "source_sha256": "b3fd018d46a1f60eafa1612f1077c53578a678ee432e924acdb60f7121f7515c",
+      "release_sha256": "9eac2d395dae0efeb46299913c4b3680cb0061a679cbbfef8477b263a0f4b9fc",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/pause_guard.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/pause_guard.py",
+      "source_sha256": "7ce122bb5095340f29509daa4c160a15fe8955d3b868c23a1eb21bcd02731d12",
+      "release_sha256": "1001fc6938c358f552d0b04cbc46124cb76fb8bb88b4379b4e6fe94e834ef888",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/rhythm_evaluate.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/rhythm_evaluate.py",
+      "source_sha256": "82996b3515b1abed6c2c19c2600921bfa9a38b2ed03f7799dfd8ac64f191e4e5",
+      "release_sha256": "f3682644117e02416c3466e1ed7a9f335313621cea64bd494ff433b377ca3c2d",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/rhythm-bridge/rhythm_guides.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/rhythm-bridge/rhythm_guides.py",
+      "source_sha256": "b245837324ed2915705f056ec3077ef2ebcd2a7e9bf06112bb480ae69fe82249",
+      "release_sha256": "131af5636b6606747b457411a4da5b8b9dfa2ae3b74577cb69672c5e66ebdc86",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/train.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/train.py",
+      "source_sha256": "15b5ec916b5ede9fba0c2cd76623e13df35586ab239e7aece25b49db0f1ad1b4",
+      "release_sha256": "0a6972ef5ff9ff1744ae4f7918513ca815b7a510a98453b22f242efa33e5919f",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/runtime/cosyvoice3/scripts/verify_exports.py",
+      "source_relative_path": "runtime/cosyvoice3/scripts/verify_exports.py",
+      "source_sha256": "9bff18be94f1590c7c2404a87de33ff34cac9ddc17c23fc83dd7972c148eec6e",
+      "release_sha256": "ac86600b3cd70f949d8e4c02d9740e824fc27487da0508c914c7d9fe9f945ffd",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/audit_nailv_library.py",
+      "source_relative_path": "tools/audit_nailv_library.py",
+      "source_sha256": "b703242dd957968e6bc6e67707cf5fde7621e5e4fa0500baaf0fb71b6342a49c",
+      "release_sha256": "ee9b62bc497deb794624f82c11e55c8799952fc97fe5919f8307ea69d77b96bc",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/audit_nailv_self.py",
+      "source_relative_path": "tools/audit_nailv_self.py",
+      "source_sha256": "a4f46df8bd53ac2234df64c428b664f6a86bf288781950e39ce49a5f8aeedcb2",
+      "release_sha256": "ded41cd190ec305a6ddc6b5e980b9ad33e3f3d1d4dc27d048ecb3ec8d3d21562",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/audit_pending_acceptance.py",
+      "source_relative_path": "tools/audit_pending_acceptance.py",
+      "source_sha256": "8bdbb101b5c61bcf3e799dd499519735eaf9ae9ce113e3a6be362130b1cfb8a4",
+      "release_sha256": "6870ed191b57c210abd945d7eee203503670249395d7b89f3d06652b784b2c61",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/browse_nailv_library.py",
+      "source_relative_path": "tools/browse_nailv_library.py",
+      "source_sha256": "1be4dca8c51f40e02c2b0c6ac996a16f420ee6936cd4b8192f56e326f0fe2dfd",
+      "release_sha256": "df44cd8c62fe6cefa30901ae83bb6b3bd30c56de9cb48a1404ea13b02d1de2d2",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/build_nailv_library.py",
+      "source_relative_path": "tools/build_nailv_library.py",
+      "source_sha256": "59bc40434c2c4eef3d6d95b80b83640ce26f3ce627067b2766a03af6e1351dc0",
+      "release_sha256": "d638524cb3c980537bb440c20d9a1d9aa5e5b62c481ada78fe5e410674628bcd",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/build_relationships.py",
+      "source_relative_path": "tools/build_relationships.py",
+      "source_sha256": "54af888c196542d467a99b3afebbcd404096a9b3b9d49142f9492ca32aa56390",
+      "release_sha256": "f2baf2217bf1fa5ebe94aaf6004bb7a48a34c91d77d2a272bcc19c5870bb6c58",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/build_self_supplement.py",
+      "source_relative_path": "tools/build_self_supplement.py",
+      "source_sha256": "04592ac34dbafd737d69b5603aecb0723f4804b9c89a092daad6d0a41da96d86",
+      "release_sha256": "c9995ad799f25ad723433f6ce10e63f68e222bbefa6c1d7ebc1ec164bd0b397a",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/build_style_bank.py",
+      "source_relative_path": "tools/build_style_bank.py",
+      "source_sha256": "2625def9a0b27698e767612836cff6cf0f1d06e65455f682c21852b3f931b6f7",
+      "release_sha256": "bb0bafc198a98483527937f7c04bcb2f221844448a7963d27c42d668741a16af",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/complete_nailv_extraction.py",
+      "source_relative_path": "tools/complete_nailv_extraction.py",
+      "source_sha256": "14328e64375e0ef2a32be5ee9084f166d15735713309202f3efd4ff8eef2b251",
+      "release_sha256": "91c5e7697f19abc35f0f3eac0cf6690f63f937c4cca1a64816aee07c3028a023",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/evaluate_nailv_text.py",
+      "source_relative_path": "tools/evaluate_nailv_text.py",
+      "source_sha256": "6c70d27687bda33ca6df17470d27f8717d7608ed5572966a4d8fd92d0aed1886",
+      "release_sha256": "a0d615cc088943cf846f822ed46a9d438f26b711bfc34916ad84a06c258df599",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/expand_nailv_self.py",
+      "source_relative_path": "tools/expand_nailv_self.py",
+      "source_sha256": "fd37d409c6f03691f79f0c150005b726179dbae4a31fac5629cc54757237bdcd",
+      "release_sha256": "76dbdc265088fdaa6b670f003e8b573b44f023b097874b799829b2a08ab769bc",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/extract_nailv_library.py",
+      "source_relative_path": "tools/extract_nailv_library.py",
+      "source_sha256": "b1ec578d4d8416a6433adb595d4cb52ad67e9b4355e9fb66ea780d417dcacb66",
+      "release_sha256": "2c0fc96edef288d5ae9e27efa44774444ee11fd02e618e18374f60fab67ed611",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/extract_nailv_self.py",
+      "source_relative_path": "tools/extract_nailv_self.py",
+      "source_sha256": "af4efffcab96b9f357478c8d03895c2ecd9751de839c07232ce7e104286a19ac",
+      "release_sha256": "3b46f72d97321e0508ee976c95df21a9926874823960e23985657bbfcd985e8b",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/final_self_check.py",
+      "source_relative_path": "tools/final_self_check.py",
+      "source_sha256": "180555c6a11937ffbdd831721247cbd9a075a237269e166b3127d2f93091505f",
+      "release_sha256": "7405ff99c1c81f5740dead94ec96ada58d5acb9bf744036804c8d72685944a34",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/finalize_approved_nailv.py",
+      "source_relative_path": "tools/finalize_approved_nailv.py",
+      "source_sha256": "37dbb376cda2d6d3983bd9fa86e1c1d95e8ec90f84f752d1c964c6d9655b334d",
+      "release_sha256": "4e5a6878159922e023a5905819afd250e795d7a4d72f2c3a0054b638b8fe4f55",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/finalize_full_nailv.py",
+      "source_relative_path": "tools/finalize_full_nailv.py",
+      "source_sha256": "aef8147a0aff61e284b4f079f60d204032a5c3e7fc13862cbd03847851b30a27",
+      "release_sha256": "98652241b7a45afdcaa21e16f7d15a960d974b413aaf2a6438d36d7a45634908",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/finish_nailv_publication.py",
+      "source_relative_path": "tools/finish_nailv_publication.py",
+      "source_sha256": "8b1b3ad65110c8b762b8102e41db793b110f2dd7c04b3df3d06bec0ab8b4b4e1",
+      "release_sha256": "109f9809bc69915bbd6d2d68fde4c6dbfe1f1d78f62cc5d3d1047c1bf615edee",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/finish_self_supplement.py",
+      "source_relative_path": "tools/finish_self_supplement.py",
+      "source_sha256": "f6c9c5218ca3374607b7bec13337e0ae00ac32aad627a4c5ce7e3bbc4f80ea19",
+      "release_sha256": "1a89f6dc08c0c22c44ec148e9e5e1681b29b5ad4ae684a091937d95c5478f0d5",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/install_nailv_text.py",
+      "source_relative_path": "tools/install_nailv_text.py",
+      "source_sha256": "7a50792127ee83f539931c2635fc103a0f57e088e8dbade69370f1ef6cd8e0b4",
+      "release_sha256": "dee7f61e0e2ca65630e7d6647736e5e9a928c0ba66837a7ef6b9ed03a1e2897c",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_affect_context.py",
+      "source_relative_path": "tools/nailv_affect_context.py",
+      "source_sha256": "98a68761e2f6657d6604961231f44650355a65ce4211d7c5ac588dd3dec02ed0",
+      "release_sha256": "9ff4a8091051208a074c01338d4f5c3fc2e53a664274654b6aa6226294a6f3e3",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_call_limits.py",
+      "source_relative_path": "tools/nailv_call_limits.py",
+      "source_sha256": "92a89869c4d89c7ad7c41e7fd8ab48a2b53157520c2c27211f39bb12c6257210",
+      "release_sha256": "81b5cde041b6b5defa872336e89b190734307796162a41f53b5108b84211b7d7",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_community_knowledge.py",
+      "source_relative_path": "tools/nailv_community_knowledge.py",
+      "source_sha256": "978d0e8d7f21919f0fa1de327da98160f2db0652fab1792695ac60cee946fb64",
+      "release_sha256": "13eec65ef7b33135b514d6fc90c2d566fe1dc119337df28c2695894f402de227",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_cosy_delivery.py",
+      "source_relative_path": "tools/nailv_cosy_delivery.py",
+      "source_sha256": "e00fe007e57f425aef6cc9db696077ad41903f01d7c75d3c119c792d9c066746",
+      "release_sha256": "2bcbbee00af82d5343481af533c4d5806ddbff21cc59bc1ee9262dc47cfcb818",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_cosy_performance.py",
+      "source_relative_path": "tools/nailv_cosy_performance.py",
+      "source_sha256": "71c3212f5140f454a1fe8f8376c95692fb6420ebd14cd9636bcb08ef3ec32b74",
+      "release_sha256": "7f95d7f9bc9d3e1f3b61e514e9febe39df37345318a9040187297eaf0a612121",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_expression_variation.py",
+      "source_relative_path": "tools/nailv_expression_variation.py",
+      "source_sha256": "13aae390baec0e2b028df48f3d5dec82b6948d73c6fcaf6e34c111b3096f854e",
+      "release_sha256": "0702feddaee94030cc85d247b0998177c67a0171cec588e4006f8b4428456dda",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_hybrid_routing.py",
+      "source_relative_path": "tools/nailv_hybrid_routing.py",
+      "source_sha256": "68770f0e7331c31e1d11958a8aaef813db73f67eefac9c615c02b737f9da298d",
+      "release_sha256": "24960ea156e7e60c60dcc4b68331a6148ef13268bb171990f11900901db035d0",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_hybrid_voice.py",
+      "source_relative_path": "tools/nailv_hybrid_voice.py",
+      "source_sha256": "a1cfac1269c5c6b4d40948dee496a06cb68e0a142955cb3cd20617f55b897144",
+      "release_sha256": "40eecc52fe7b21b2134e7974f6b94158a3a828e1474a3f50d5ab11eea8327a59",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_live_emotions.py",
+      "source_relative_path": "tools/nailv_live_emotions.py",
+      "source_sha256": "16469ae7d5228d216e918e33d9e9bde5a7a98f06baa62481cd9de6c5ed5b081e",
+      "release_sha256": "8d5c5cc612013579077f151c59433b70df4627636748ebf8672d6b101d61df17",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_newsource_voice.py",
+      "source_relative_path": "tools/nailv_newsource_voice.py",
+      "source_sha256": "2abcc527585a5cd66fbb8d05d77551a8f7bba1a23ce0eb8ee78b7e2c74770639",
+      "release_sha256": "c919eb1908a9ddcbceb492679b5b65be0422e29698e749c53ce23f4e4cbc2ccc",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_preference_knowledge.py",
+      "source_relative_path": "tools/nailv_preference_knowledge.py",
+      "source_sha256": "0d1326f3f43f847531b87a8cabcd76d41383347d083a45d2e6cadbbd078b23ff",
+      "release_sha256": "c949f43760396de84673c0b0c78cb4ecb92b43b4a5c4cda9003830e143b767ba",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_proplus_voice.py",
+      "source_relative_path": "tools/nailv_proplus_voice.py",
+      "source_sha256": "3d9cc40fafec7c32efcde8160b01dfc71e4eff9d9aa6079952acf28c1477c175",
+      "release_sha256": "631d52064c87dd879676cd3368a06b94fb3b258f4d167feaa03fefc012fc881b",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_prosody.py",
+      "source_relative_path": "tools/nailv_prosody.py",
+      "source_sha256": "54a280ba519fe12f797f7c652061a62cbdfe2a1db22378f9d11bda153729e7c6",
+      "release_sha256": "b6d9cfa6231c017cf35ab273cabe0c5e8d1ad7b4b7cf0bdf590df6f53625c0f0",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_relationship_knowledge.py",
+      "source_relative_path": "tools/nailv_relationship_knowledge.py",
+      "source_sha256": "d8191c6c44c654c83262dcd8149a2e4ce48e07e9271ea01e47ff0b4ce075f508",
+      "release_sha256": "9e05d13ff1383320360cb6524089190b2ee92112a6a54cafe00907aadc75c13e",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_self_knowledge.py",
+      "source_relative_path": "tools/nailv_self_knowledge.py",
+      "source_sha256": "866d617860d834858ee432758bff126436c962d964fab18d979ac758268b648c",
+      "release_sha256": "94c79dd969a64a05e1d534e09099413b7759445eb241a51d9ddfaf7f26c6d601",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_study_client.py",
+      "source_relative_path": "tools/nailv_study_client.py",
+      "source_sha256": "8d0c9adbb1ecbba5f50cca3074a8d0fc39972c783add620b9b7ca7ef23e30bce",
+      "release_sha256": "e0c1cac7699e5bb1866eb8df3573112d7d8642ae2915a3eefa566a6154e0a7bd",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_style3.py",
+      "source_relative_path": "tools/nailv_style3.py",
+      "source_sha256": "ae8815817635696eb8d0c600f7a96196a84acde8e0ecf86208a7e287952656b8",
+      "release_sha256": "99c76cedbfae24f7b6a30b08343aaa2bbe2a652b91eab65c8799e0e4f85b2fa0",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_supplement_vectors.py",
+      "source_relative_path": "tools/nailv_supplement_vectors.py",
+      "source_sha256": "30f1b6bf1cc43374faffdd8ee51bdca542accba4ed0e1293a23cfa51d4e256f4",
+      "release_sha256": "4c0df23d9438db8cc19724d509aef1be8881bf1705dae76822676dc341a90f13",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_text_core.py",
+      "source_relative_path": "tools/nailv_text_core.py",
+      "source_sha256": "a36e3d71d63d3664c2b970da4f13abea3ca62dca46fe25b6726462ae1f99bd1b",
+      "release_sha256": "933f30c7431d54a68346f95dcd4733916a527197d26ce3e979a4cef95341e24d",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_text_server.py",
+      "source_relative_path": "tools/nailv_text_server.py",
+      "source_sha256": "56ac9bd7e12ee9bfc3ea2f3e7fd574d479e6fb3acd20f2d525118b2cb868c39a",
+      "release_sha256": "1447439ed6bff9e3c5f8a56345e132265d5b1bc7255cbc9ed06f7bad03b1dc25",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_voice_backends.py",
+      "source_relative_path": "tools/nailv_voice_backends.py",
+      "source_sha256": "d1d024facc263dbd81e4fe1b847f7c33d8de1ac029e1f820ae8b05fddd21a813",
+      "release_sha256": "ddbc1596cea940db21a3ede3060c28c0e95458858181a170ee19146fb8a3069f",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_voice_cadence.py",
+      "source_relative_path": "tools/nailv_voice_cadence.py",
+      "source_sha256": "4823746b53f8e5a10bc766625a244674ced1b3872c353dfed17eb5fa6b1e05ec",
+      "release_sha256": "adc37d4a20f134260f4bb91c98a9300caff3ba3651bde555582be3240101fcf8",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_voice_intent.py",
+      "source_relative_path": "tools/nailv_voice_intent.py",
+      "source_sha256": "2c982e9d36c1e11acadc29ace43a5ce8d8446b8c09b24c9789015fce54d57e1d",
+      "release_sha256": "9d1a1a3c7a0b3d593e9d7f41bf8021497c9240f6abd4aa3f4e1d2e12a9822fdb",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_voice_materials.py",
+      "source_relative_path": "tools/nailv_voice_materials.py",
+      "source_sha256": "f6ec05a3047b94c45b0eb3eee9dab2029ad974aeca3a19f54e69897b2fd5f395",
+      "release_sha256": "9aa51800927f73881ed4d0db5a3282756c8847194fe15ba99271f973eb96f59e",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_voice_preview.py",
+      "source_relative_path": "tools/nailv_voice_preview.py",
+      "source_sha256": "c6506c9e314151b395545ee8c28f09718710688506bd2691f56d834383d45257",
+      "release_sha256": "0333e57894635c965ad7ed59ae7116dbeb2357f78fb7d57700a60159dfc99188",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_voice_round3.py",
+      "source_relative_path": "tools/nailv_voice_round3.py",
+      "source_sha256": "ed0ae177e7012674633f89555f7bf97e60472f5695a70f25ec0cc2b5043d2ea0",
+      "release_sha256": "940c39335441c696b475300f23ed186d2db6664e914f98e40d9f0ad67b9211ff",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_voice_trial.py",
+      "source_relative_path": "tools/nailv_voice_trial.py",
+      "source_sha256": "6192923b32b77a3804f2bbadd102c638de3c54503840aac2436fc82a1b3e5432",
+      "release_sha256": "fa156e6a98dfea29c2f6bd7429a502b9060331947755d159b6e08af4d136588f",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_voice_upgrade.py",
+      "source_relative_path": "tools/nailv_voice_upgrade.py",
+      "source_sha256": "c66ff5a386f9fb884ed61b963ef59aa3ec371798e1f096f32a10015b01f0f940",
+      "release_sha256": "5114eb13b090d8f071bc673a9f7b6680dbd04252f0abe770a3c6cfa4227e1653",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/nailv_voice_v5.py",
+      "source_relative_path": "tools/nailv_voice_v5.py",
+      "source_sha256": "3dbd6f9aa628cc6216b5d3eadc767e32a5c5730f5f2977bd14ba5366c8bc3cac",
+      "release_sha256": "89414215dbc25f6986d9177fb5677be0b3c095d15ff8c788cba4f4820c90aef4",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/prepare_conditional_acceptance.py",
+      "source_relative_path": "tools/prepare_conditional_acceptance.py",
+      "source_sha256": "4eed897e69e1f519599e5ca2c83ae4760fae7ce3fdcb93f277673ad26f82b613",
+      "release_sha256": "e3c932db3327d50a1fbad26de0eda9609d16df7046d3d81ba1561cb742609ee2",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/prepare_nailv_style.py",
+      "source_relative_path": "tools/prepare_nailv_style.py",
+      "source_sha256": "8c03066c08bbbe8e2ba47c0bfed779859bec585bca998bdde320f2c86c5ad7b2",
+      "release_sha256": "c7218cf978cb214640ddf0c197c6a01a659c42258d4c6ee26e305e7f5d8058ce",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/publish_conditional_acceptance.py",
+      "source_relative_path": "tools/publish_conditional_acceptance.py",
+      "source_sha256": "1448abc8baaabe2ebaaefc798254d24657ab2d99fa8836fdb8a2c88c6ef73c48",
+      "release_sha256": "d7d59c7f1ffa5d93bd8d2c7d70a455043522ef3b69df3577343aba5d3548a339",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/publish_nailv_library.py",
+      "source_relative_path": "tools/publish_nailv_library.py",
+      "source_sha256": "c9b42e5124257f22cf7cbafbfb3e3a307529bb2effc6c191b72088f64c5e48ad",
+      "release_sha256": "86bb1cc1db45d10ca5b9de92a432a2c154aa0b076ab3a1baf19bd86891d8c153",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/review_nailv_library.py",
+      "source_relative_path": "tools/review_nailv_library.py",
+      "source_sha256": "3f13b9f0c7192f374e33a4c812f64291e9b50b456db52dc0ffef46ef223fe5ef",
+      "release_sha256": "e7fae0c683f44fe9348deef9f755a94b845eced6b1a0b6dbe0f5c627e2ab4cc6",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/review_nailv_self.py",
+      "source_relative_path": "tools/review_nailv_self.py",
+      "source_sha256": "66e14cb73e0b554e76d48c25e5c5091f476da292b972a29e274c67e28e0e9737",
+      "release_sha256": "3cbbab33e8a7dd6171a34281d9ebb2beab47500cbb3c2b344b7162f7a5feea14",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/run_paired_analysis.py",
+      "source_relative_path": "tools/run_paired_analysis.py",
+      "source_sha256": "fbe11525a9cc5b8e52ee3691f97e8c31b2c1b25ffc8284176e4219122e2bd7c6",
+      "release_sha256": "54941f081d85a74fa0736a85d532ed15efa855c0bc7650b76ec9008a1467360a",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/run_style_selection.py",
+      "source_relative_path": "tools/run_style_selection.py",
+      "source_sha256": "c89e7a17a04fb42c84ff75e3f25692a1256b72f641086df9737e61621234499f",
+      "release_sha256": "2faffaa5c288b0ca424ae13d9b90b3952ca3e52627e5b931cf2add59e8776505",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/social_supplement.py",
+      "source_relative_path": "tools/social_supplement.py",
+      "source_sha256": "e4611f66704028a1ad386a26e9f800b5ed2c2dccdf3d55f5a2f05dee0bc11eae",
+      "release_sha256": "dc59d4f63afeb023d7f0512b11506153a7cfe28505759606ca2a41ac0634f0fb",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/update_nailv_reader_full.py",
+      "source_relative_path": "tools/update_nailv_reader_full.py",
+      "source_sha256": "378680ea8f7fef671493a91e4a54f6800b0d9034232ea83a6d72ba264c5f115f",
+      "release_sha256": "174f562ddb2b9af70c45a412d679e82ec7e5ed450de5e74384f199acb40762d3",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/tools/upgrade_nailv_expression.py",
+      "source_relative_path": "tools/upgrade_nailv_expression.py",
+      "source_sha256": "ea9468ed68d0426993cee3a6170a659ec82a78c4debad892a0adbec40e50e9b1",
+      "release_sha256": "2e3e873ead838364ceaaea80ecd58b374f6a8ea693a4a3bb80a0bb5ff8088bfe",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/analyze_diagnosis.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/analyze_diagnosis.py",
+      "source_sha256": "07b3abec3fd3d1ce0b5ebb6b02ba72ea248a77d2474b57f9d14a756d4d115d04",
+      "release_sha256": "7ef212b0c59615b525f159c8af6a43ce16dd3c7b9c875e3c6f12f33f5c145397",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/assemble_delivery.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/assemble_delivery.py",
+      "source_sha256": "97783c313159d079dadfbc2958548e35176357daef4bd371c0c3e68ed0faa068",
+      "release_sha256": "677823fd89f979061de353c9a2ef9ccfcaa6230831a56381b51d2882132bf42c",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/audit_features_diagnosis.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/audit_features_diagnosis.py",
+      "source_sha256": "9d2902091a998c5055ac7ace735d0647a8fc5cdaa5a37287db840818ff399443",
+      "release_sha256": "8e967d5504439eee4c90cbe1c34d7302ff5679b154a4f3b75a027f1e2667249a",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/build_e14_tail_listening.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/build_e14_tail_listening.py",
+      "source_sha256": "db0a4bc984a083e7ec73417620cb2e13833213e667c1416d5ceca4b1adcfbb16",
+      "release_sha256": "ab384908d04cfa70c8dabcaad30472d61fdef35b77f9842e5e49d5997b92cb95",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/check_diagnosis_text.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/check_diagnosis_text.py",
+      "source_sha256": "6b959eac84b1a53f2ccae5f463c5abf22f4c7573adc3d10bab66b36d6165ea7a",
+      "release_sha256": "0df39da146dc9d68abb6eddfa8b0bbbbbf796739b5a8d287caf497b7e4140374",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/check_generated_text.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/check_generated_text.py",
+      "source_sha256": "5310843594327e32b4d4ba43777bc9be342bcdeef302c62f598317c880c93782",
+      "release_sha256": "f8cd7c7e795e599759aabe291abed37171b487ea03935b7aa520b8e4bc6b27bd",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/check_outputs.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/check_outputs.py",
+      "source_sha256": "4bcba0320b52f8e3edfd0b6aae334d15508c4a41e49ebcc29d7a724d4662b4e3",
+      "release_sha256": "bb1d5cbc61a465e7f30d3d2b2f3678e23661a6980b52b74a4e94e634614cf7a5",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/check_reference_alignment.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/check_reference_alignment.py",
+      "source_sha256": "574407f9d03ab81afd91626821d145297f818f235e1af16cf0c2dc0687eb1bd3",
+      "release_sha256": "8cbaf5045dd003fb6a7bc7cbe43529cf07d69353f261f26feeff6566f793b14b",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/check_repair_and_epochs.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/check_repair_and_epochs.py",
+      "source_sha256": "61638b5d7fc114ca364d9d284e1519b5e7f1c366be2ad41bb1484cc439247537",
+      "release_sha256": "4a0344d8a7c9b06fbf3e3ebbdf458c634236cf7f6599ed5909453a9b233f9d99",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/check_routing_and_inputs.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/check_routing_and_inputs.py",
+      "source_sha256": "8a53cb89e2263831104d408f0a2a785ab974a209b9231f7b9d5976f55a8553e0",
+      "release_sha256": "dec05876f992540729119d94c1636f0cdafb3b1c36157d2993dbee0a0712646b",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/common.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/common.py",
+      "source_sha256": "aa0489143cc71d17055368e74fbdc37cee896a517a3438539a03e8c9ef2ce46e",
+      "release_sha256": "4e2b053adf0e66d276c979fac7439fa7bb5d5db0b52e931ab8b0cc088fafd850",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/compare_continuation.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/compare_continuation.py",
+      "source_sha256": "e2986e77c5e8b170709339fb6fbd8a713c4e0812cff66fde73e38d6bb7170048",
+      "release_sha256": "78d67342e8839ab6602d86f72d4b2e9aceac1e235f2c8798b939505706faa1f4",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/compare_gpt_epochs.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/compare_gpt_epochs.py",
+      "source_sha256": "27f488f43d044e1e1437ae538322cb0604b518ee20e00759ecd60e01a382da40",
+      "release_sha256": "a4bcd7d08421efa6625515604d8b9f8dbd3eda6a62da04a38581be65e9a11cd5",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/diagnose_gpt.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/diagnose_gpt.py",
+      "source_sha256": "5c907e9108e0227695fe89bc1610ddb2b3951405057db721d82e33f2a2e21cb3",
+      "release_sha256": "a123efdd080de3050b8d29430a0ada9327ee89f6ba2ede444f1577d402b64744",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/diagnose_inference.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/diagnose_inference.py",
+      "source_sha256": "6893e0e903d630e8c2530a026773d88bc4556e010e0b64c742f9022634770ca4",
+      "release_sha256": "e712341fbd1fc30cbc6cb0004ffd5f9be0987a56a469b705a2fd10d57d50bfdd",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/emotion_routing.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/emotion_routing.py",
+      "source_sha256": "d0643c5a53403187fd37988478342aa2404543ed247a61745eeb0aa1a2c0751c",
+      "release_sha256": "2076ff6e26e180b643bb2ee83e95efe1e129a7f69c6c5358c4e3fb660f379c2f",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/finalize_delivery_notes.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/finalize_delivery_notes.py",
+      "source_sha256": "03f2a1a83c033fdcd953af4c1409de12582de0cfefa0b12b640d09e908829a0e",
+      "release_sha256": "00defe4b575e02e4b96244ad6ca7461da0da0b48281c50d73424094aee829c75",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/finalize_e14_more.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/finalize_e14_more.py",
+      "source_sha256": "c5ca5dd023c61f0a924b704725ef59c2e78bdbfda51717771dd95c8c7c273f3b",
+      "release_sha256": "76efc817de476c4a6393f42f4fc8fa4260c0b1860d85165b3a3cd52de61974a0",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/finalize_e14_tail_repair.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/finalize_e14_tail_repair.py",
+      "source_sha256": "4173a3d268de4584618e498343c1c23f60bbd555314d7dc65cfa8c4b6ebb9be0",
+      "release_sha256": "ecacc413fc442bdaad97c5f12f17a72eee0672c8ac92f3d6efca12f03cc5bd6f",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/finalize_inference_diagnosis.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/finalize_inference_diagnosis.py",
+      "source_sha256": "e2935fef05a8d39bf5420265b3335bd4db00f6fdf9649908083d2926e84625f4",
+      "release_sha256": "7c82f4ef45bd32b64d7ebeff5dd4ac198d8b76a6d4aeb2c5a21166fa645ea98f",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/finalize_punctuation_patch.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/finalize_punctuation_patch.py",
+      "source_sha256": "579dddef91aebfd8316780b45986acb0a33c8738a12f47aeb0fc24c47e23fd43",
+      "release_sha256": "95f866ffa8a71fba0d8ea9cfdf16f848d7c081a23f88d9684616959c3318ed58",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/finish_pipeline.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/finish_pipeline.py",
+      "source_sha256": "57f128e7d5b5b8cc93e2f7982e56e9711733054562a11cebf0f9c666d1e820bd",
+      "release_sha256": "c52ab134686f5e70be2bd59428d8c7a46a32816418d5d42e962354154ed6ce55",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/initialize.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/initialize.py",
+      "source_sha256": "073d773f43bb513a718779202b142e7555920b335ef04d8bb72e635385eff1a4",
+      "release_sha256": "53be7a319ef66327692a5ed8eab5de379d798dc280f71a56a81b53d19e74a2bc",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/low_peak_loading.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/low_peak_loading.py",
+      "source_sha256": "eae5d9725c2424d7692170add642a1b71d09322d690497ee2b21c5c65251e421",
+      "release_sha256": "a1c4dc3c6730ef06309016b7408a1f4825aa7d820a31e4cf24b561c0a529ae2d",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/make_inference_helpers.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/make_inference_helpers.py",
+      "source_sha256": "1ac940296d753a7a9dd180dcc6c154dff908ed73872ee1b2d292906413cf9cec",
+      "release_sha256": "d2de349064d06acbd83e6cd41aecd91248f8f965cf40381f0e47ff6d47be9e0b",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/make_training_scripts.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/make_training_scripts.py",
+      "source_sha256": "068e1ea15aa2cb8b6f87c708a9e213052b24bcbea1a6f259eb9835e18a6d4da4",
+      "release_sha256": "d08c08d3b8a520608158a2f94c5b4b1dc3bcb8e5fcec3746258c6d2423fe1160",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/nailv_audio_export.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/nailv_audio_export.py",
+      "source_sha256": "3c5b65ac0b4354f84697aacebb18678207891f2d45afed4e396efee11c87387f",
+      "release_sha256": "ba6244b4de88ccde26de5ec78f68ce0a32e2b217b44ba4827e6ac700165d4a35",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/nailv_connected_frontend.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/nailv_connected_frontend.py",
+      "source_sha256": "26939dc4e071e6f79ad7a5a11f7f8511a012edf2fd303afa8c0bc8f1dc80c208",
+      "release_sha256": "b188f4af66466b6141f7b58b59c0a766402a6eb967af8e468fc20a012949ffa5",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/nailv_proplus_voice.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/nailv_proplus_voice.py",
+      "source_sha256": "3d9cc40fafec7c32efcde8160b01dfc71e4eff9d9aa6079952acf28c1477c175",
+      "release_sha256": "631d52064c87dd879676cd3368a06b94fb3b258f4d167feaa03fefc012fc881b",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_content_retry.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_content_retry.py",
+      "source_sha256": "8a6492eea5259538322d96d13617c252c33f7b23713ea399d1b10a124e6286a7",
+      "release_sha256": "a8e8c6a0b5b0b49e6b468aa03fbfba41708f36bd86c2bc9a2a3161861fbbdf98",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_continuation.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_continuation.py",
+      "source_sha256": "f28a3f1ba5c3968870ac842d5b3598466f9108dae1acd21142595c4f4891fa73",
+      "release_sha256": "dede346130b528eea37dc4f314663b59ce6a6ae66d74381ef210020e5038ecff",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_e14_more.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_e14_more.py",
+      "source_sha256": "507c7314200b556407f351b1fe7f019d7db84712e37ead97151bb00c459dc1a0",
+      "release_sha256": "f8bf64876c8ded02ccff0ecf30b0dc0be74a13323d0da7c166455619440cd595",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_e14_tail_page.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_e14_tail_page.py",
+      "source_sha256": "91b6e3e6cc0bf78eb5b0c499dd4345e51e624627c0753db2803f7f5098983292",
+      "release_sha256": "1497d4b489730ef011780e9d2e84eef5b2ba25b6ea52ef4de84b303b0384535e",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_e20_continuation.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_e20_continuation.py",
+      "source_sha256": "00e81a63d1c125d6784da7596a9fab677220c79e5dfca36977ef9818954fb032",
+      "release_sha256": "be17611a7f9af02a077664fc2b9e698836acc32b46f81dd7ad1d405bd705e486",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_features.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_features.py",
+      "source_sha256": "11ab9ece7652008bc3038a1d6c946002aee919798a42472eeee9ac43555f97bc",
+      "release_sha256": "7b5c373276dab5aa07c22d0a7b91e67fcd1fd6f351fa88e289caa28c2d78119d",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_oral_retry.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_oral_retry.py",
+      "source_sha256": "9046a420a3829fdf3975401a3f588d06fd4b647f82af7c6f3be7862f58e05a33",
+      "release_sha256": "a9b6d323e1d102e5a91edcdce49965a6ae7099f1b4293b6109d1e77f657764ef",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_punctuation_page.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_punctuation_page.py",
+      "source_sha256": "0d8bf9414dd55c87a9de163c394f4935e6e014a729a80add0fa5120039fc156d",
+      "release_sha256": "c14a3219f1b111a612d1ce726f32880e548a3db32313dd64ee04ff2b8b94acf7",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_punctuation_trials.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_punctuation_trials.py",
+      "source_sha256": "5f41bcfc01b4ec695c5b8d8943926263ba8f5ed9aed4db72a8f203dd0e05f6eb",
+      "release_sha256": "d7f7f99c505c211ddd28836ce62159136d4c12d5c6a77a857c72d5515adfe8bb",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_rp_repair.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_rp_repair.py",
+      "source_sha256": "98d4a37b219ca957e906a5e36c2ef70f582e3dc33b16ecfb150aa3abe0e67c34",
+      "release_sha256": "ff3f7cb2b5fdd76652d4f14c00eb21f6ee998321f339ba5ce6b2c97878c8e3c9",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/prepare_synthesis.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/prepare_synthesis.py",
+      "source_sha256": "3474328650f9f4c66e3db4d69b6c0dc78d2440f549079b3dc09a06ec7d36b77e",
+      "release_sha256": "f9ec3af1d765a66550033b3ef4e899b30265b30973def9c9371879957235a18c",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/publish.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/publish.py",
+      "source_sha256": "14bc3281a1a470939b6031ffdb6425ff35a4fdaa136f84ccab1c6070e58893b0",
+      "release_sha256": "47d0c26ed9cd23d60fd2e36ab837afb57e304210bed7c8af9e2f58868b84ac5d",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/publish_continuation_ui.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/publish_continuation_ui.py",
+      "source_sha256": "9fa462b1c58539c610f3fb68863600e868cf2919a3d3fb66f04a37ff6b720673",
+      "release_sha256": "f3bd8f6d2d95f16d9ea3ae4a5478ec6cd7f86fc310e3ac946e3eb808f4d76005",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/publish_e14_more_ui.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/publish_e14_more_ui.py",
+      "source_sha256": "434cbaf476f456c214ca87e0666e40f974805535d47ef51f1a5ee5f1416105e4",
+      "release_sha256": "7924792553fd0a2ba3e7a561bd9ff8bd4a36ec4cc74d4169892ac4f6537cd130",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/publish_e20_ui.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/publish_e20_ui.py",
+      "source_sha256": "69c9c9472bef1ce73d4fad5124a872fc1d1d52e8ecaf6651e5d34588d3e574f2",
+      "release_sha256": "8e8c0eca7e441f60713ce58a5990941cccf77c2cbf68bf2d8c14911952c1e5ab",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/punctuation_audio_patch.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/punctuation_audio_patch.py",
+      "source_sha256": "62ed9ae383e6841f97198f62e44dc3ff131fb32fa6bfe0dacf7e79db3e8fe5f8",
+      "release_sha256": "44f468efa5f7eb1d4fe67e475ebfa043eb67357f86102b90e27b0005e9923ed4",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/record_daily_choice.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/record_daily_choice.py",
+      "source_sha256": "cb17a17b9ea1d898dede3eddb68089a492289b7ae9eb5726aae5dd4fe4ed0f4d",
+      "release_sha256": "66f6bf07156c0da87b9e8ee91d95ec00f9d24dd853ceafc1f4e423a032554fd8",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/reference_micro_gate.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/reference_micro_gate.py",
+      "source_sha256": "c55a19a0f09f1b7e9fc3831971a1c4681e01c61560cd20ca559044b2c047bb5a",
+      "release_sha256": "9120b438297b61bcfa1e6124c156311673cabb5d1ecb650c38376c524453dfa7",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/repair_e14_tail_trials.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/repair_e14_tail_trials.py",
+      "source_sha256": "2a5b0b2801e4806f876034b8df95a7b8ce193f6d39e6659b4d974a5ba6c39749",
+      "release_sha256": "825edc7ab4e4e2ac82188db47dc0cfb0e00a31938f7993d7e2942e5080625cbb",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/restore_legacy_daily.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/restore_legacy_daily.py",
+      "source_sha256": "80a76a6c254e57236b9055e11358c7ad9aa1e3d9b69fb2e9796857897140a821",
+      "release_sha256": "800b1dcf472089613f9c5b670e2a7ac002edb6bb8fd81b020a387e1e6d2cd29d",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/run_stage2.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/run_stage2.py",
+      "source_sha256": "90298134b53f39a641e7bfd4d0a60295d285ebd7f28eed8132c8e6289d0d36dc",
+      "release_sha256": "fd6d9067ace6bd122cbb8217b122626b30380c2a607dd3c3dcfc7cc1a5ff53f3",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/synthesize.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/synthesize.py",
+      "source_sha256": "f924d2905d68cbd571489a506930b78846a9ee8efa98e775591f06e9c22ad957",
+      "release_sha256": "5d69003377c0a1e16c15f3781d0ba18c19337b8e086ea76c68c80fbd327f286a",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/synthesize_punctuation.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/synthesize_punctuation.py",
+      "source_sha256": "a831450204fc15539645891f000bad86bde211b91f5786c09b5879aeda3c35f5",
+      "release_sha256": "92d65cdd94df040656d90624090c92bc2f4de21add50b54c199b923e8fd177de",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/tail_signal.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/tail_signal.py",
+      "source_sha256": "b48aba753d5c4a823f874aed2de9c7062221826c9c0911465fde321cbb433bd4",
+      "release_sha256": "7f7af313a38b5d26a0b3f5baef6ea7d9fd27f39068149308ddc506e6b469fcd8",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/train_stage1.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/train_stage1.py",
+      "source_sha256": "9b15c358aa6558df0dfa112d58ca890cc148aa0c002bd22e47b63a745b0c3889",
+      "release_sha256": "4984ba19e584b604911653de577165e8c2247eb37591e254dffbf1bc78410d3e",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/train_stage2.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/train_stage2.py",
+      "source_sha256": "607df6032a1221709c285050545688312cbe7de104038e6cde96cadc36c95c09",
+      "release_sha256": "6ae41ac397b60476905df62934bff025bcb327708dad2fb671b88e1e234575dc",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/verify_delivery.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/verify_delivery.py",
+      "source_sha256": "16e68ab62d15e5f45c4dc9a7df069ad1dab0558fb321a46b0bda99857c6b9cba",
+      "release_sha256": "b232f346fc6620651468c133a3e00dc8d4d717d7f45b40209046a2dec430ad8d",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/verify_inference_repair.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/verify_inference_repair.py",
+      "source_sha256": "f638a201b6a05206101ac2269494a604fc4f8278ff1c46b5658d463d2ee609c2",
+      "release_sha256": "e9b1e36b847047f7fc66cb3e2248a9ff017ebff245ea6cde64632a5b059e3b56",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    },
+    {
+      "path": "implementation/voice/training/v2proplus-newsource-20261025/scripts/write_delivery_notes.py",
+      "source_relative_path": "voice/training/v2proplus-newsource-20261025/scripts/write_delivery_notes.py",
+      "source_sha256": "297a102cba17b48b968e597c19d817913c0bc5c70d3633ac1d2c6d3560e75e79",
+      "release_sha256": "eea95932905c584781331ebe73d945187b27657fc681d3a3edc8aabf5a39a681",
+      "adaptation": "configuration bootstrap and path/account literals; inference algorithms retained"
+    }
+  ]
+}

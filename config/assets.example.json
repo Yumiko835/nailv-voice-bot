@@ -1,0 +1,87 @@
+{
+  "format_version": 1,
+  "weights_and_real_character_data_included": false,
+  "required_runtime_assets": [
+    {
+      "name": "approved persona facts",
+      "relative_path": "persona/facts.json",
+      "required_for": "text"
+    },
+    {
+      "name": "persona identity",
+      "relative_path": "persona/identity.md",
+      "required_for": "text"
+    },
+    {
+      "name": "interaction behaviors",
+      "relative_path": "persona/behaviors.json",
+      "required_for": "text"
+    },
+    {
+      "name": "style cards",
+      "relative_path": "style/v3.2/表达选段库.json",
+      "required_for": "text"
+    },
+    {
+      "name": "local knowledge index",
+      "relative_path": "data/approved-index/library.sqlite3",
+      "required_for": "text"
+    },
+    {
+      "name": "selected GPT/SoVITS weights manifest",
+      "relative_path": "voice/training/v2proplus-newsource-20261025/selected-models.json",
+      "required_for": "voice"
+    },
+    {
+      "name": "GPT reference pool",
+      "relative_path": "voice/training/v2proplus-newsource-20261025/cross-engine-20261026/reference-manifest.json",
+      "required_for": "voice"
+    },
+    {
+      "name": "CV3 reference manifest",
+      "relative_path": "voice/comparison/cosyvoice3-20261026/prompts/manifest.json",
+      "required_for": "voice"
+    },
+    {
+      "name": "cosyvoice3.yaml",
+      "relative_path": "runtime/cosyvoice3/models/Fun-CosyVoice3-0.5B-2512/cosyvoice3.yaml",
+      "required_for": "voice"
+    },
+    {
+      "name": "flow.pt",
+      "relative_path": "runtime/cosyvoice3/models/Fun-CosyVoice3-0.5B-2512/flow.pt",
+      "required_for": "voice"
+    },
+    {
+      "name": "hift.pt",
+      "relative_path": "runtime/cosyvoice3/models/Fun-CosyVoice3-0.5B-2512/hift.pt",
+      "required_for": "voice"
+    },
+    {
+      "name": "speech_tokenizer_v3.onnx",
+      "relative_path": "runtime/cosyvoice3/models/Fun-CosyVoice3-0.5B-2512/speech_tokenizer_v3.onnx",
+      "required_for": "voice"
+    },
+    {
+      "name": "campplus.onnx",
+      "relative_path": "runtime/cosyvoice3/models/Fun-CosyVoice3-0.5B-2512/campplus.onnx",
+      "required_for": "voice"
+    },
+    {
+      "name": "CosyVoice upstream code",
+      "relative_path": "runtime/cosyvoice2/src/cosyvoice",
+      "required_for": "voice"
+    },
+    {
+      "name": "AstrBot upstream",
+      "relative_path": "runtime/astrbot/app/main.py",
+      "required_for": "qq"
+    },
+    {
+      "name": "OneBot local connection",
+      "relative_path": "runtime/astrbot/app/data/cmd_config.json",
+      "required_for": "qq"
+    }
+  ],
+  "additional_assets": "See docs/setup.md; file presence is not proof of a valid environment or trained weights."
+}

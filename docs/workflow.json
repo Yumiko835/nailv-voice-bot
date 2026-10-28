@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "scope": "source release reconstruction, not an automatic paid cloud job",
+  "stages": [
+    {
+      "id": "sources",
+      "input": [
+        "permitted recordings",
+        "source dates",
+        "speaker labels"
+      ],
+      "output": [
+        "immutable manifest",
+        "transcripts"
+      ],
+      "gate": "separate speaker/SC/lyrics/lore and uncertainty"
+    },
+    {
+      "id": "knowledge",
+      "input": [
+        "sources"
+      ],
+      "output": [
+        "identity",
+        "facts",
+        "behavior cards",
+        "style cards"
+      ],
+      "gate": "source spans and human review recorded"
+    },
+    {
+      "id": "retrieval",
+      "input": [
+        "approved material"
+      ],
+      "output": [
+        "local index",
+        "optional embeddings"
+      ],
+      "gate": "same model/dimension/text hashes; external transfer explicitly permitted"
+    },
+    {
+      "id": "style",
+      "input": [
+        "current user context",
+        "candidate cards"
+      ],
+      "output": [
+        "top24",
+        "selected0to3",
+        "response scope"
+      ],
+      "gate": "no facts copied from unrelated examples"
+    },
+    {
+      "id": "voice_data",
+      "input": [
+        "recordings and aligned text"
+      ],
+      "output": [
+        "train",
+        "validation",
+        "holdout",
+        "references"
+      ],
+      "gate": "no fake long-clip splice or holdout leakage"
+    },
+    {
+      "id": "voice_train_optional",
+      "input": [
+        "data",
+        "official base",
+        "hardware budget"
+      ],
+      "output": [
+        "checkpoints",
+        "receipts"
+      ],
+      "gate": "smoke backward/save/reload before long training"
+    },
+    {
+      "id": "D_voice",
+      "input": [
+        "GPT/SoVITS",
+        "reference",
+        "CV3 modules"
+      ],
+      "output": [
+        "source WAV",
+        "D WAV",
+        "metadata"
+      ],
+      "gate": "deep reference isolation; do not treat Flow as default D"
+    },
+    {
+      "id": "offline_review",
+      "input": [
+        "audio",
+        "real references"
+      ],
+      "output": [
+        "CPU critic proxies",
+        "content flags",
+        "human choices"
+      ],
+      "gate": "do not claim to have listened or prove personality with proxy scores"
+    },
+    {
+      "id": "QQ",
+      "input": [
+        "fresh AstrBot",
+        "fresh NapCat",
+        "local credentials"
+      ],
+      "output": [
+        "text",
+        "SILK voice"
+      ],
+      "gate": "whitelist only; real human verifies playback"
+    },
+    {
+      "id": "release",
+      "input": [
+        "clean source",
+        "templates",
+        "docs"
+      ],
+      "output": [
+        "CI",
+        "source tag",
+        "release"
+      ],
+      "gate": "no secrets, profiles, recordings or unlicensed weights"
+    }
+  ],
+  "not_guaranteed": [
+    "bit-exact retraining across hardware",
+    "perfect personality likeness",
+    "permanent QR-free login",
+    "all optional plugins work"
+  ]
+}

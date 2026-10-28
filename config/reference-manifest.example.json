@@ -1,0 +1,61 @@
+{
+  "scope": "replace all placeholders using audio you can use",
+  "prompts": {
+    "daily": {
+      "id": "your-reference-daily",
+      "style": "daily",
+      "path": "ABSOLUTE_LOCAL_REFERENCE_WAV_PATH",
+      "sha256": "COMPUTE_FROM_YOUR_FILE",
+      "text": "逐字对应这段音频的文字",
+      "enabled": true,
+      "micro_gate_plan": null
+    },
+    "teasing": {
+      "id": "your-reference-teasing",
+      "style": "teasing",
+      "path": "ABSOLUTE_LOCAL_REFERENCE_WAV_PATH",
+      "sha256": "COMPUTE_FROM_YOUR_FILE",
+      "text": "逐字对应这段音频的文字",
+      "enabled": true,
+      "micro_gate_plan": null
+    },
+    "tsundere": {
+      "id": "your-reference-tsundere",
+      "style": "tsundere",
+      "path": "ABSOLUTE_LOCAL_REFERENCE_WAV_PATH",
+      "sha256": "COMPUTE_FROM_YOUR_FILE",
+      "text": "逐字对应这段音频的文字",
+      "enabled": true,
+      "micro_gate_plan": null
+    },
+    "explaining": {
+      "id": "your-reference-explaining",
+      "style": "explaining",
+      "path": "ABSOLUTE_LOCAL_REFERENCE_WAV_PATH",
+      "sha256": "COMPUTE_FROM_YOUR_FILE",
+      "text": "逐字对应这段音频的文字",
+      "enabled": true,
+      "micro_gate_plan": null
+    },
+    "excited": {
+      "id": "your-reference-excited",
+      "style": "excited",
+      "path": "ABSOLUTE_LOCAL_REFERENCE_WAV_PATH",
+      "sha256": "COMPUTE_FROM_YOUR_FILE",
+      "text": "逐字对应这段音频的文字",
+      "enabled": true,
+      "micro_gate_plan": null
+    },
+    "serious": {
+      "id": "your-reference-serious",
+      "style": "serious",
+      "path": "ABSOLUTE_LOCAL_REFERENCE_WAV_PATH",
+      "sha256": "COMPUTE_FROM_YOUR_FILE",
+      "text": "逐字对应这段音频的文字",
+      "enabled": true,
+      "micro_gate_plan": null
+    }
+  },
+  "alternates": {},
+  "schema_note": "Check prepare_reference in implementation for any gate_plan shape; None is the unprocessed-reference default."
+}

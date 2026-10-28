@@ -1,0 +1,28 @@
+{
+  "download_automatically": false,
+  "artifacts": [
+    {
+      "repo": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+      "required_default_files": [
+        "cosyvoice3.yaml",
+        "flow.pt",
+        "hift.pt",
+        "speech_tokenizer_v3.onnx",
+        "campplus.onnx"
+      ],
+      "LLM_required_for_D": false
+    },
+    {
+      "repo": "lj1995/GPT-SoVITS",
+      "revision": "8f8857563c040d542de108a2c18b0425abd6c9c5",
+      "purpose": "ProPlus initialization; auxiliary Chinese HuBERT/BERT/G2PW/SV assets also needed"
+    },
+    {
+      "repo": "FunAudioLLM/CosyVoice2-0.5B",
+      "revision": "eec1ae6c79877dbd9379285cf8789c9e0879293d",
+      "purpose": "optional CV2 rollback/training experiments, not final D default"
+    }
+  ],
+  "custom_weights": "Not included. Train or supply your own permitted GPT/SoVITS checkpoints and per-file SHA-256 values."
+}

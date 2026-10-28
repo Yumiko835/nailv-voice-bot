@@ -1,0 +1,6 @@
+name: astrbot_plugin_nailv
+display_name: 奶绿人设与语音
+desc: 复用已审核资料库、隐藏情绪路由及本地D声码器语音
+version: v0.1.0
+author: Yumiko835
+repo: https://github.com/Yumiko835/nailv-voice-bot

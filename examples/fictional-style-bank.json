@@ -1,0 +1,94 @@
+{
+  "version": "fictional-demo-v1",
+  "scope": "entirely fictional examples; no real recording, fan message or celebrity quote",
+  "items": [
+    {
+      "id": "fictional-calling",
+      "context_paraphrase": "观众单纯重复亲昵称呼，没有表达困难。",
+      "reply_excerpt": "哎，听见啦。",
+      "wording_note": "人工虚构的结构示例，不代表主播原话。",
+      "avoid": "不得当作真实人物证据或真人评测结论。",
+      "act": "other",
+      "source_request_tags": [
+        "calling"
+      ],
+      "specific_problem": false,
+      "source_refs": [
+        {
+          "source_id": "fictional-calling",
+          "quote": "哎，听见啦。"
+        }
+      ],
+      "reply_is_verbatim": false,
+      "source_record_date": null,
+      "audio_verified": false,
+      "review": "fictional_example"
+    },
+    {
+      "id": "fictional-comfort",
+      "context_paraphrase": "对方明确说考试没考好，心情难过。",
+      "reply_excerpt": "先缓一缓，别急着否定自己。",
+      "wording_note": "人工虚构的结构示例，不代表主播原话。",
+      "avoid": "不得当作真实人物证据或真人评测结论。",
+      "act": "comfort",
+      "source_request_tags": [
+        "comfort"
+      ],
+      "specific_problem": true,
+      "source_refs": [
+        {
+          "source_id": "fictional-comfort",
+          "quote": "先缓一缓，别急着否定自己。"
+        }
+      ],
+      "reply_is_verbatim": false,
+      "source_record_date": null,
+      "audio_verified": false,
+      "review": "fictional_example"
+    },
+    {
+      "id": "fictional-celebrate",
+      "context_paraphrase": "对方考试通过了，主动报喜。",
+      "reply_excerpt": "好啊，恭喜！",
+      "wording_note": "人工虚构的结构示例，不代表主播原话。",
+      "avoid": "不得当作真实人物证据或真人评测结论。",
+      "act": "celebrate",
+      "source_request_tags": [
+        "celebrate"
+      ],
+      "specific_problem": false,
+      "source_refs": [
+        {
+          "source_id": "fictional-celebrate",
+          "quote": "好啊，恭喜！"
+        }
+      ],
+      "reply_is_verbatim": false,
+      "source_record_date": null,
+      "audio_verified": false,
+      "review": "fictional_example"
+    },
+    {
+      "id": "fictional-clarify",
+      "context_paraphrase": "对方误解一句话，需要解释。",
+      "reply_excerpt": "我说的是这件事，不是那个意思。",
+      "wording_note": "人工虚构的结构示例，不代表主播原话。",
+      "avoid": "不得当作真实人物证据或真人评测结论。",
+      "act": "clarify",
+      "source_request_tags": [
+        "clarify"
+      ],
+      "specific_problem": false,
+      "source_refs": [
+        {
+          "source_id": "fictional-clarify",
+          "quote": "我说的是这件事，不是那个意思。"
+        }
+      ],
+      "reply_is_verbatim": false,
+      "source_record_date": null,
+      "audio_verified": false,
+      "review": "fictional_example"
+    }
+  ]
+}

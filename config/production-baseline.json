@@ -1,0 +1,32 @@
+{
+  "snapshot_date": "2026-10-28",
+  "scope": "Original project accepted technical baseline; source adaptation has not been GPU/QQ reaccepted",
+  "chat_LLM_finetuned": false,
+  "original_hardware": {
+    "GPU": "RTX 3060 Laptop",
+    "VRAM_GiB": 6,
+    "RAM_GiB": 16
+  },
+  "voice_path": [
+    "GPT-SoVITS V2ProPlus GPT6",
+    "original SoVITS14 FP32 decode",
+    "CV3 frontend Mel",
+    "official HiFT",
+    "conditional complete confirmation hum",
+    "Tencent SILK",
+    "NapCat QQ"
+  ],
+  "voice_sampling": {
+    "repetition_penalty": 1.2,
+    "temperature": 0.85,
+    "top_k": 5,
+    "top_p": 0.9,
+    "speed_factor": 1.0,
+    "cut": "cut0 within bounded thought chunks"
+  },
+  "cv3_LLM_loaded": false,
+  "default_Flow_generation": false,
+  "Flow_S3_CAMPPlus_still_required_for_init_prewarm": true,
+  "critic_in_formal_QQ": false,
+  "human_choices_override_proxy_scores": true
+}

@@ -1,0 +1,4 @@
+{
+  "semantic_retrieval": {"description":"沿用现有语义检索（人工触发聊天时）", "type":"bool", "default":true},
+  "voice_enabled": {"description":"文字发送成功后追加本地D/N1语音", "type":"bool", "default":true}
+}

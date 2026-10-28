@@ -1,0 +1,18 @@
+{
+  "version": "v2ProPlus",
+  "gpt": {
+    "epoch": 6,
+    "path": "ABSOLUTE_LOCAL_GPT_WEIGHT_PATH",
+    "sha256": "COMPUTE_FROM_YOUR_FILE"
+  },
+  "sovits": {
+    "epoch": 14,
+    "path": "ABSOLUTE_LOCAL_SOVITS_WEIGHT_PATH",
+    "sha256": "COMPUTE_FROM_YOUR_FILE"
+  },
+  "inference": {
+    "acoustic_precision": "float32",
+    "noise_scale": 0.5
+  },
+  "note": "Epoch labels describe the original accepted project, not universal best checkpoints."
+}

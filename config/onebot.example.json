@@ -1,0 +1,13 @@
+{
+  "type": "OneBot v11 reverse WebSocket",
+  "bind": "127.0.0.1",
+  "astrbot_webui_port": 6185,
+  "napcat_webui_port": 6101,
+  "websocket_url": "ws://127.0.0.1:6199/ws",
+  "access_token": "GENERATE_A_NEW_LOCAL_TOKEN",
+  "bot_qq": "SET_LOCALLY",
+  "allowed_group": "SET_LOCALLY",
+  "owner_qq": "SET_LOCALLY",
+  "trigger": "only_at_bot",
+  "note": "Conceptual field mapping, not a directly importable AstrBot configuration. Create a fresh instance using docs/qq.md."
+}
