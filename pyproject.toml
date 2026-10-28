@@ -1,6 +1,6 @@
 [project]
 name = "nailv-voice-bot"
-version = "0.1.0"
+version = "0.1.1"
 description = "Source release of a grounded character QQ bot with GPT-SoVITS and CV3 HiFT delivery"
 readme = "README.md"
 requires-python = ">=3.12"

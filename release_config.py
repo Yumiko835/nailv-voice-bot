@@ -2,6 +2,7 @@
 from __future__ import annotations
 import json
 import os
+import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
@@ -50,3 +51,9 @@ def secret_path(variable: str) -> Path:
 
 def metadata() -> dict:
     return {'source_root':str(REPO),'data_root':str(ROOT),'private_keys_printed':False}
+
+def configure_cli() -> None:
+    """Chinese JSON must also work on Western Windows redirected consoles."""
+    for stream in (sys.stdout,sys.stderr):
+        if hasattr(stream,'reconfigure'):
+            stream.reconfigure(encoding='utf-8')

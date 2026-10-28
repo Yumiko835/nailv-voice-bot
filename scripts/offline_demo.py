@@ -2,7 +2,7 @@
 import json,sys,tempfile
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from release_config import REPO
+from release_config import REPO,configure_cli
 sys.path.insert(0,str(REPO/'implementation/tools'))
 import nailv_style3 as style
 
@@ -20,4 +20,6 @@ def run():
             return output
         finally:style.ROOT=original
 
-if __name__=='__main__':print(json.dumps({'demo':'fictional examples, actual retriever','results':run(),'cloud_calls':0},ensure_ascii=False,indent=2))
+if __name__=='__main__':
+    configure_cli()
+    print(json.dumps({'demo':'fictional examples, actual retriever','results':run(),'cloud_calls':0},ensure_ascii=False,indent=2))

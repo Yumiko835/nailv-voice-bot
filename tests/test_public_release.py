@@ -1,5 +1,5 @@
 """Meaningful offline boundaries; no private assets or GPU packages required."""
-import importlib.util,json,os,sys,unittest
+import importlib.util,json,os,sys,unittest,subprocess
 from pathlib import Path
 REPO=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(REPO));sys.path.insert(0,str(REPO/'implementation/tools'))
@@ -23,6 +23,12 @@ class PublicReleaseTests(unittest.TestCase):
         self.assertFalse(variation.cooldown('扣帽子是什么意思？',history))
     def test_project_path_rejects_escape(self):
         with self.assertRaises(ValueError):release_config.project_path('../outside')
+    def test_demo_on_western_windows_encoding(self):
+        env=os.environ.copy();env.update(PYTHONIOENCODING='cp1252',PYTHONUTF8='0',PYTHONDONTWRITEBYTECODE='1')
+        result=subprocess.run([sys.executable,'-B',str(REPO/'scripts/offline_demo.py')],cwd=REPO,env=env,capture_output=True,text=True,encoding='utf-8',timeout=20)
+        self.assertEqual(result.returncode,0,result.stderr)
+        data=json.loads(result.stdout)
+        self.assertEqual(data['results'][0]['question'],'妈妈妈妈')
     def test_critic_contract_is_offline(self):
         text=(REPO/'implementation/runtime/cosyvoice3/scripts/audio_critic.py').read_text(encoding='utf-8')
         self.assertIn("os.environ['CUDA_VISIBLE_DEVICES']='-1'",text)

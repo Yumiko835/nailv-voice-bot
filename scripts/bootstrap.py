@@ -2,7 +2,7 @@
 import argparse,json,os,shutil,sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from release_config import REPO,ROOT,project_path
+from release_config import REPO,ROOT,project_path,configure_cli
 
 def bootstrap(target: Path) -> None:
     target=target.resolve()
@@ -21,6 +21,7 @@ def bootstrap(target: Path) -> None:
     marker.write_text(json.dumps({'kind':'public_source_workspace','fictional_demo_only':True,'source_root':str(REPO)},ensure_ascii=False,indent=2),encoding='utf-8')
 
 if __name__=='__main__':
+    configure_cli()
     parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path,default=ROOT);args=parser.parse_args()
     bootstrap(args.out)
     print(json.dumps({'created':str(args.out.resolve()),'models_downloaded':0,'cloud_calls':0},ensure_ascii=False))

@@ -2,6 +2,8 @@
 import ast,hashlib,json,re,subprocess,sys
 from pathlib import Path
 REPO=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(REPO))
+from release_config import configure_cli
 BINARY={'.pt','.pth','.ckpt','.onnx','.safetensors','.wav','.mp3','.flac','.silk','.db','.sqlite3','.exe','.dll','.node','.zip','.key','.pem'}
 IGNORE={'.git','.local','.venv','__pycache__','.pytest_cache'}
 
@@ -35,4 +37,5 @@ def check():
     return {'passed':not errors,'files_checked':count,'errors':errors,'scope':'syntax/JSON/known-risk paths and patterns; not a proof of no secret or of runtime audio quality','network_calls':0}
 
 if __name__=='__main__':
+    configure_cli()
     result=check();print(json.dumps(result,ensure_ascii=False,indent=2));raise SystemExit(0 if result['passed'] else 1)
